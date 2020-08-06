@@ -1,0 +1,81 @@
+.videolist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.videoitems {
+    flex-direction: column;
+    display: flex;
+    width: 22%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.vodeoTitle {
+    font-weight: bold;
+}
+
+.videoitems p {
+    color: rgb(129, 126, 126);
+}
+
+.videoPageItem {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: oblique ;
+    color: rgb(28, 28, 224);
+    border: 1px solid rgb(173, 170, 170);
+    transition: .2s;
+}
+
+.titleHref {
+    text-decoration: none;
+    color: #000;
+}
+
+.videoPageItem:hover {
+    background-color: darkcyan;
+    color: #fff;
+    font-size: 30px;
+}
+
+.Pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.star {
+    color: rgb(241, 227, 28);
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.NoStar {
+    color: rgb(83, 81, 81);
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media screen  and (min-width: 700px) and (max-width: 1000px){
+    .videoitems {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .videoitems {
+        width: 45%;
+    }
+}

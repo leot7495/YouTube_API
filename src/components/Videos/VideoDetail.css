@@ -1,0 +1,42 @@
+.videoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 20px 0px;
+    width: 80%;
+    height: 80vh;
+}
+
+.videoDescription {
+    width: 80%;
+}
+
+.videoDescription h3 {
+    font-size: 25px;
+}
+
+.videoDetailP {
+    font-size: 20px;
+    color: red;
+}
+
+.videoDetailDescriptionP {
+    color: rgb(119, 116, 116);
+    font-style: italic;
+}
+
+.DetailNoStar {
+    color: rgb(83, 81, 81);
+    font-size: 30px;
+}
+
+.Detailstar {
+    color: rgb(241, 227, 28);
+    font-size: 30px;
+}

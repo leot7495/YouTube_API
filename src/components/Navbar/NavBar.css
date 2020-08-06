@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    background-color: #000;
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+    line-height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgb(219, 33, 33);
+    color: rgb(255, 181, 22);
+    font-size: 30px;
+}
